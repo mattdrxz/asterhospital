@@ -1291,35 +1291,35 @@
         <div class="dept-tabs-grid">
             <div class="dept-tab-card active" onclick="switchDept('dept-nonbedah', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-stethoscope"></i></div>
-                <div class="dept-tab-name">I. Medik Non Bedah & Penyakit Dalam</div>
+                <div class="dept-tab-name">Internal Medicine Clinics</div>
             </div>
             <div class="dept-tab-card" id="dept-tab-pediatrics" onclick="switchDept('dept-pediatrics', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-baby"></i></div>
-                <div class="dept-tab-name">Pediatrics (Anak)</div>
+                <div class="dept-tab-name">Pediatric Clinics</div>
             </div>
             <div class="dept-tab-card" id="dept-tab-neurology" onclick="switchDept('dept-neurology', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-brain"></i></div>
-                <div class="dept-tab-name">Neurologi & Psikiatri</div>
+                <div class="dept-tab-name">Neurology & Mental Health Clinics</div>
             </div>
             <div class="dept-tab-card" id="dept-tab-surgery" onclick="switchDept('dept-surgery', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-scalpel"></i></div>
-                <div class="dept-tab-name">II. Bedah & Spesialisasi</div>
+                <div class="dept-tab-name">Eye, Ear & Surgery Clinics</div>
             </div>
             <div class="dept-tab-card" id="dept-tab-oncology" onclick="switchDept('dept-oncology', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-ribbon"></i></div>
-                <div class="dept-tab-name">III. Kanker, Jantung & Khusus</div>
+                <div class="dept-tab-name">Cancer, Cardiology & Obgyn Clinics</div>
             </div>
             <div class="dept-tab-card" id="dept-tab-others" onclick="switchDept('dept-others', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-plus-minus"></i></div>
-                <div class="dept-tab-name">Lainnya (Others)</div>
+                <div class="dept-tab-name">Other Specialists</div>
             </div>
             <div class="dept-tab-card" onclick="switchDept('dept-supportive', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-microscope"></i></div>
-                <div class="dept-tab-name">IV. Departemen Penunjang</div>
+                <div class="dept-tab-name">Supportive Departement Clinics</div>
             </div>
             <div class="dept-tab-card" onclick="switchDept('dept-emergency', this)">
                 <div class="dept-tab-thumb"><i class="fa-solid fa-truck-medical"></i></div>
-                <div class="dept-tab-name">V. Layanan Gawat Darurat</div>
+                <div class="dept-tab-name">Emergency Department</div>
             </div>
         </div>
 
@@ -1328,15 +1328,42 @@
             
             <!-- PANEL 1: NON-BEDAH -->
             <div id="dept-nonbedah" class="dept-panel active">
-                <h3 class="panel-header">I. Departemen Medik Non Bedah</h3>
-                <h4 class="subdept-title">Klinik Penyakit Dalam (Internal Medicine Clinic)</h4>
+                <h3 class="panel-header">Internal Medicine Clinics</h3>
+                <h4 class="subdept-title">Klinik Penyakit Dalam Umum</h4>
                 <div class="doctors-grid">
                     <div class="doctor-card">
                         <div class="doc-header">
                             <div class="doc-avatar-placeholder"><i class="fa-solid fa-user-doctor"></i></div>
                             <div class="doc-meta">
+                                <h4>Dr. Pribadi Raharja, Sp.PD., M.Kes.</h4>
+                                <div class="specialization">Penyakit Dalam Pria</div>
+                            </div>
+                        </div>
+                        <div class="doc-schedule-box">
+                            <div><strong>Senin, Rabu, Jumat:</strong> 08.00 – 13.00 WIB</div>
+                        </div>
+                        <button class="btn-know-more" onclick="openDoctorModal('Dr. Pribadi Raharja, Sp.PD., M.Kes.', 'Spesialis Penyakit Dalam Umum', 'dr. — Dokter Umum, Universitas Kristen Maranatha<br>M.Kes. — Magister Kesehatan, Universitas Indonesia<br>Sp.PD. — Dokter Spesialis Penyakit Dalam, Universitas Indonesia<br>')">Kenali Lebih</button>
+                    </div>
+                    <div class="doctor-card">
+                        <div class="doc-header">
+                            <div class="doc-avatar-placeholder"><i class="fa-solid fa-user-doctor"></i></div>
+                            <div class="doc-meta">
+                                <h4>Dr. Dylan Setiadi, Sp.PD., Subsp. EMD.(K), MBA.</h4>
+                                <div class="specialization">Penyakit Dalam Pria</div>
+                            </div>
+                        </div>
+                        <div class="doc-schedule-box">
+                            <div><strong>Selasa & Kamis:</strong> 08.00 – 13.00 WIB</div>
+                            <div><strong>Sabtu:</strong> 09.00 – 12.00 WIB</div>
+                        </div>
+                        <button class="btn-know-more" onclick="openDoctorModal('Dr. Dylan Setiadi, Sp.PD., Subsp. EMD.(K), MBA.', 'Spesialis Penyakit Dalam Umum', 'dr. — Dokter Umum, Universitas Gadjah Mada<br>Sp.PD. — Dokter Spesialis Penyakit Dalam, Universitas Padjajaran<br>Subsp. EMD.(K) — Subspesialis Endokrinologi, Metabolisme dan Diabetes<br>MBA — Master of Business Administration, Harvard Business School')">Kenali Lebih</button>
+                    </div>
+            <div class="doctor-card">
+                        <div class="doc-header">
+                            <div class="doc-avatar-placeholder"><i class="fa-solid fa-user-doctor"></i></div>
+                            <div class="doc-meta">
                                 <h4>Dr. Valerie, Sp.PD., FINASIM</h4>
-                                <div class="specialization">Penyakit Dalam Umum</div>
+                                <div class="specialization">Penyakit Dalam Wanita</div>
                             </div>
                         </div>
                         <div class="doc-schedule-box">
@@ -1344,6 +1371,19 @@
                             <div><strong>Sabtu:</strong> 09.00 – 12.00 WIB</div>
                         </div>
                         <button class="btn-know-more" onclick="openDoctorModal('Dr. Valerie, Sp.PD., FINASIM', 'Spesialis Penyakit Dalam Umum', 'dr. — Dokter Umum<br>Sp.PD. — Dokter Spesialis Penyakit Dalam<br>FINASIM — Fellowship Internal Medicine Indonesia')">Kenali Lebih</button>
+                    </div>
+            <div class="doctor-card">
+                        <div class="doc-header">
+                            <div class="doc-avatar-placeholder"><i class="fa-solid fa-user-doctor"></i></div>
+                            <div class="doc-meta">
+                                <h4>Dr. dr. Kayleen Setiadi, Sp.PD., M.Ked.</h4>
+                                <div class="specialization">Penyakit Dalam Wanita</div>
+                            </div>
+                        </div>
+                        <div class="doc-schedule-box">
+                            <div><strong>Senin, Rabu, Jumat:</strong> 08.00 – 13.00 WIB</div>
+                        </div>
+                        <button class="btn-know-more" onclick="openDoctorModal('Dr. dr. Kayleen Setiadi, Sp.PD., M.Ked.', 'Spesialis Penyakit Dalam Umum', 'dr. — Dokter Umum, Universitas Padjajaran<br>Sp.PD. — Dokter Spesialis Penyakit Dalam, Universitas Padjajaran<br>M.Ked. — Magister Kedokteran, Universitas Padjajaran<br>Dr. — Doktor Ilmu Kedokteran, Universitas Indonesia')">Kenali Lebih</button>
                     </div>
                 </div>
 
